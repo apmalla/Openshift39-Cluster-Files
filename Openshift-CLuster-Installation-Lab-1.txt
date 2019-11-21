@@ -109,10 +109,9 @@ Step 6: Start and Enable NetworkManager and Docker Services on all nodes:
 *************************************************************************
 
 
-~]# systemctl start NetworkManager
-~]# systemctl enable NetworkManager
-~]# systemctl status NetworkManager
 
+
+~]# systemctl start NetworkManager && systemctl enable NetworkManager && systemctl status NetworkManager
 ~]# systemctl start docker && systemctl enable docker && systemctl status docker
 
 
